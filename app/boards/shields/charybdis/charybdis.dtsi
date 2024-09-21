@@ -53,11 +53,11 @@
 
 &spi0 {
 	compatible = "nordic,nrf-spim";
-	status = "disabled";
+	status = "okay";
 
 	trackball: trackball@0 {
 		compatible = "pixart,pmw3610";
-		status = "disabled";
+		status = "okay";
 		reg = <0>;
 		label = "TRACKBALL";
 		spi-max-frequency = <2000000>;
